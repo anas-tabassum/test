@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+  </head>
+  <body>
+    <div class="video-container" id="video-container">
+      <iframe
+        id="youtube-iframe"
+        src="https://www.youtube.com/embed/KqhTq2Tx91E?enablejsapi=1&rel=0&modestbranding=1&mute=1"
+        frameborder="0"
+        allowfullscreen
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+      ></iframe>
+      <div
+        class="play-pause-btn"
+        onclick="toggleFullscreen();togglePlayPause()"
+      ></div>
+      <!-- <button onclick="toggleFullscreen();togglePlayPause()">Click me</button> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <div class="play-pause-btn" onclick="toggleFullscreen();togglePlayPause()">
+  Play / Pause
+</div> -->
